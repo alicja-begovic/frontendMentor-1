@@ -1,0 +1,15 @@
+* {
+    
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(/images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    margin: 60px 30px;
+}
+
+.opinie__image {
+    border-radius: 50%;
+}
