@@ -39,11 +39,14 @@ body {
   display: grid;
   grid-template-areas: "intro . rate";
   grid-template-columns: 500px 100px 700px;
-  
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .rates {
-  display: inline;
+  display: flex;
+  justify-content: center;
 }
 
 .introduction {
