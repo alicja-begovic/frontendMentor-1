@@ -4,120 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Social proof section | Frontend Mentor</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <title>Frontend Mentor | Social proof section</title>
   </head>
-
   <body>
-    <section class="wrapper">
-
+    <section class="rate">
       <div class="introduction">
-        <h2 class="introduction__tittle">
-          <strong>10,000+ of our users love our products.</strong>
-        </h2>
-        <p class="introduction__subtitle">
+        <h1 class="introduction__title">
+          10,000+ of our users love our products.
+        </h1>
+        <p class="introduction__description">
           We only provide great products combined with excellent customer
           service. See what our satisfied customers are saying about our
           services.
         </p>
       </div>
 
-      <div class="opinions">
-
-        <div class="opinions__opinion">
-
-          <div class="opinion__rate">
-            <div class="rate__stars"><img src="images/icon-star.svg" alt="Stars" />
+      <div class="stars">
+        <div class="stars__rate rateOne">
+          <div class="rate__star">
             <img src="images/icon-star.svg" alt="Stars" />
             <img src="images/icon-star.svg" alt="Stars" />
             <img src="images/icon-star.svg" alt="Stars" />
-            <img src="images/icon-star.svg" alt="Stars" /></div>
-            <p class="opinion__category"><strong>Rated 5 Stars in Reviews</strong></p>
+            <img src="images/icon-star.svg" alt="Stars" />
+            <img src="images/icon-star.svg" alt="Stars" />
           </div>
+          <span class="rate__subject"
+            ><strong>Rated 5 Stars in Reviews</strong></span
+          >
         </div>
-
-        <div class="opinions__opinion">
-
-          <div class="opinion__rate">
-            <div class="rate__stars"><img src="images/icon-star.svg" alt="Stars" />
+        <div class="stars__rate rateTwo">
+          <div class="rate__star">
             <img src="images/icon-star.svg" alt="Stars" />
             <img src="images/icon-star.svg" alt="Stars" />
             <img src="images/icon-star.svg" alt="Stars" />
-            <img src="images/icon-star.svg" alt="Stars" /></div>
-            <p class="opinion__category"><strong>Rated 5 Stars in Reviews</strong></p>
+            <img src="images/icon-star.svg" alt="Stars" />
+            <img src="images/icon-star.svg" alt="Stars" />
           </div>
-
+          <span class="rate__subject"
+            ><strong>Rated 5 Stars in Report Guru</strong></span
+          >
         </div>
-
-        <div class="opinions__opinion">
-
-          <div class="opinion__rate">
-            <div class="rate__stars"><img src="images/icon-star.svg" alt="Stars" />
+        <div class="stars__rate rateThree">
+          <div class="rate__star">
             <img src="images/icon-star.svg" alt="Stars" />
             <img src="images/icon-star.svg" alt="Stars" />
             <img src="images/icon-star.svg" alt="Stars" />
-            <img src="images/icon-star.svg" alt="Stars" /></div>
-            <p class="opinion__category"><strong>Rated 5 Stars in Reviews</strong></p>
+            <img src="images/icon-star.svg" alt="Stars" />
+            <img src="images/icon-star.svg" alt="Stars" />
           </div>
-
+          <span class="rate__subject"
+            ><strong>Rated 5 Stars in BestTech</strong></span
+          >
         </div>
-
+      </div>
+    </section>
+    <section class="opinions">
+      <div class="opinions__opinion opinionOne">
+        <img
+          class="opinion__image"
+          src="images/image-colton.jpg"
+          alt="pictures of Colton"
+        />
+        <div class="opinion__detail">
+          <strong><span class="detail__name">Colton Smith</span></strong>
+          <span class="detail__verification">Verified Buyer</span>
+        </div>
+        <p class="opinion__description">
+          "We needed the same printed design as the one we had ordered a week
+          prior. Not only did they find the original order, but we also received
+          it in time. Excellent!"
+        </p>
       </div>
 
-    </section>
-
-    <section class="container">
-
-      <div class="rates">
-
-        <div class="rates__rate">
-
-          <div class="rate__persone">
-            <div class="persone__image">
-              <img class ="image__avatar" src="images/image-colton.jpg" alt="images/image-colton.jpg" /> 
-            </div>
-            <div class="persone__details">
-              <p class="details__name">Colton Smith</p> <p class="details__veryfication">Verified Buyer</p>
-            </div>
-          </div>
-          <p class="persone__description">
-            "We needed the same printed design as the one we had ordered a week
-            prior. Not only did they find the original order, but we also received
-            it in time. Excellent!"
+      <div class="opinions__opinion opinionTwo">
+        <img
+          class="opinion__image"
+          src="images/image-irene.jpg"
+          alt="pictures of Irene"
+        />
+        <div class="opinion__detail">
+          <p>
+            <strong><span class="detail__name">Irene Roberts</span></strong>
+            <span class="detail__verification">Verified Buyer</span>
           </p>
         </div>
-
-        <div class="rates__rate">
-
-          <div class="rate__persone">
-            <div class="persone__image">
-              <img class="image__avatar" src="images/image-irene.jpg" alt="image-irene.jpg" />
-            </div>
-            <div class="persone__details">
-              <p class="details__name">Irene Roberts</p> <p class="details__veryfication">Verified Buyer</p>
-            </div>
-          </div>
-          <p class="persone__description">
-            "Customer service is always excellent and very quick turn around. Completely delightedwith the simplicity of the purchase and the speed of delivery."
-          </p>
-        </div>
-
-        <div class="rates__rate">
-
-          <div class="rate__persone">
-            <div class="persone__image">
-              <img class="image__avatar" src="images/image-anne.jpg" alt="images/image-anne.jpg" />
-            </div>
-            <div class="persone__details">
-              <p class="details__name">Anne Wallace</p> <p class="details__veryfication">Verified Buyer</p>
-            </div>
-          </div>
-          <p class="persone__description">
-            "Put an order with this company and can only praise theme for the very high standard. Will definitely use them again and recommend them to everyone!"
-          </p>
-        </div>
-
+        <p class="opinion__description">
+          "Customer service is always excellent and very quick turn around.
+          Completely delighted with the simplicity of the purchase and the speed
+          of delivery."
+        </p>
       </div>
-      
+
+      <div class="opinions__opinion opinionThree">
+        <img
+          class="opinion__image"
+          src="images/image-anne.jpg"
+          alt="pictures of Anne"
+        />
+        <div class="opinion__detail">
+          <strong><span class="detail__name">Anne Wallace</span></strong>
+          <span class="detail__verification">Verified Buyer</span>
+        </div>
+        <p class="opinion__description">
+          "Put an order with this company and can only praise them for the very
+          high standard. Will definitely use them again and recommend them to
+          everyone!"
+        </p>
+      </div>
     </section>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#"> Alicja Begović</a>.
+    </footer>
   </body>
 </html>
